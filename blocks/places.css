@@ -26,7 +26,7 @@
 }
 
 .places__image {
-  max-width: 460px;
+  max-width: 460%;
   max-height: 460px;
   grid-column: 1 / 4;
   grid-row: 2 / 5;
@@ -99,6 +99,7 @@
     grid-template-columns: 100%;
     grid-template-rows: repeat(5, 0fr) 50px;
     grid-gap: 30px 0;
+    margin: auto 16px;
   }
 
   .places__header {
@@ -107,10 +108,11 @@
   }
 
   .places__image {
-    max-width: 320px;
-    max-width: 320px;
+    width: 100%;
+    max-height: 320px;
     grid-column: 1;
     grid-row: 3;
+    margin: 0;
   }
 
   .places__button {
@@ -149,7 +151,7 @@
   }
 
   .places__image {
-    max-width: 340px;
+    max-width: 340%;
     max-height: 340px;
     grid-row: 2 / 4;
   }
